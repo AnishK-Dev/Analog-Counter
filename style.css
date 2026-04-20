@@ -1,0 +1,23 @@
+.label{
+    display: block;
+    text-align: center;
+    font-size: 400px;
+    font: sans-serif;
+}
+#container{
+    text-align: center;
+    width: auto;
+    height: 30px;
+}
+.button{
+    width: 250px;
+    height: 30px;
+    background-color: skyblue;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+.button:hover{
+    background-color: rgb(102, 131, 143);
+    height: 35px;
+}
